@@ -7,7 +7,8 @@ height: 800px;}
 #head {background-color: greenyellow;
 height:150px;
 width:100%;
-position:sticky;;
+position:fixed;
+top:0;
 clear:both;
 color:rgb(128, 84, 169);
 text-shadow: 2px 2px 2px rgb(255, 251, 251);
@@ -30,7 +31,8 @@ list-style-type: none;;}
 #content {width:60%;
     float:left;
     background-color:pink;
-text-align: justify;}
+text-align: justify;
+line-height:40px;}
 #right {width:20%;
     float:left;
     height: 500px; 
